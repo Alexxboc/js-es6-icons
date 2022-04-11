@@ -82,9 +82,7 @@ const animals = [
 ]
 
 const mammiferi = animals.filter(animals => {
-    if (animals.classe === 'mammifero') {
-        return true
-    }
+    return animals.classe === 'mammifero'
 } )
 
 console.log(mammiferi);
