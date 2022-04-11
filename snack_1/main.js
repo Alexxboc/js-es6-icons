@@ -77,7 +77,7 @@ const gas = cars.filter(cars => {
 })
 
 console.log(benzina);
-console.log(diesel);
+console.log(diesel); 
 console.log(gas);
 
 
