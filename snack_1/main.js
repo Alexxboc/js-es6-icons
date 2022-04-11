@@ -71,12 +71,14 @@ const cars = [
 ]
 const benzina = cars.filter(cars => cars.alimentazione === 'benzina')
 const diesel = cars.filter(cars => cars.alimentazione === 'diesel')
-const gas = cars.filter(() => {
+const gas = cars.filter(cars => {
     if(cars.alimentazione !== 'benzina' && cars.alimentazione !== 'diesel')
     return true
 })
 
 console.log(benzina);
+console.log(diesel);
+console.log(gas);
 
 
 
