@@ -66,7 +66,7 @@ const cars = [
     { 
         marca: 'smart',
         modello: 'for two',
-        alimentazione: 'metano'
+        alimentazione: 'elettrico'
     }
 ]
 const benzina = cars.filter(cars => cars.alimentazione === 'benzina')
