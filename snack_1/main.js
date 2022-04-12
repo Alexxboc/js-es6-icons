@@ -69,10 +69,10 @@ const cars = [
         alimentazione: 'elettrico'
     }
 ]
-const benzina = cars.filter(cars => cars.alimentazione === 'benzina')
-const diesel = cars.filter(cars => cars.alimentazione === 'diesel')
-const gas = cars.filter(cars => {
-    if(cars.alimentazione !== 'benzina' && cars.alimentazione !== 'diesel')
+const benzina = cars.filter(car => car.alimentazione === 'benzina')
+const diesel = cars.filter(car => car.alimentazione === 'diesel')
+const gas = cars.filter(car => {
+    if(car.alimentazione !== 'benzina' && car.alimentazione !== 'diesel')
     return true
 })
 
