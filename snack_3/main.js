@@ -81,8 +81,8 @@ const animals = [
 
 ]
 
-const mammiferi = animals.filter(animals => {
-    return animals.classe === 'mammifero'
+const mammiferi = animals.filter(animal => {
+    return animal.classe === 'mammifero'
 } )
 
 console.log(mammiferi);

@@ -69,7 +69,7 @@ const peopleNewArray = people.map((person) => {
     } else {
         person['patente'] = `${person.nome} ${person.cognome} è minorenne quindi non può guidare 👮‍♂️`
     }
-
+    
 })
 
 console.log(people);
