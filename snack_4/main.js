@@ -69,7 +69,21 @@ const peopleNewArray = people.map((person) => {
     } else {
         person['patente'] = `${person.nome} ${person.cognome} è minorenne quindi non può guidare 👮‍♂️`
     }
-    
+    return person
 })
 
-console.log(people);
+console.log(person);
+
+/* Soluzione Fabio */
+
+const newUser = user.map(user => {
+    user.full_name = user.nome + ' ' + user.cognome
+    if(user.età > 18) {
+        user.can_drive = true
+    } else {
+        user.can_drive = false
+    }
+
+    return user
+})
+
